@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تركيب أنظمة الطاقة المتجددة</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            direction: rtl; /* تحديد اتجاه الكتابة من اليمين لليسار */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        section p {
+            color: #666;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>تركيب أنظمة الطاقة المتجددة</h1>
+    </header>
+
+    <section>
+        <h2>من نحن</h2>
+        <p>نحن شركة متخصصة في تركيب أنظمة الطاقة المتجددة مثل الطاقة الشمسية والرياح. نقوم بتوفير حلول مستدامة لتلبية احتياجات الطاقة.</p>
+    </section>
+
+    <section>
+        <h2>خدماتنا</h2>
+        <ul>
+            <li>تركيب أنظمة الطاقة الشمسية</li>
+            <li>تركيب أنظمة الطاقة الرياحية</li>
+            <li>تقديم استشارات حول الطاقة المتجددة</li>
+            <li>صيانة وتحسين الأنظمة القائمة</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>اتصل بنا</h2>
+        <p>للحصول على مزيد من المعلومات أو لطلب خدماتنا، يرجى الاتصال بنا:</p>
+        <p>العنوان: [عنوان الشركة]</p>
+        <p>الهاتف: [رقم الهاتف]</p>
+        <p>البريد الإلكتروني: [عنوان البريد الإلكتروني]</p>
+    </section>
+
+    <footer>
+        <p>© 2023 تركيب أنظمة الطاقة المتجددة. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>

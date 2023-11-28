@@ -1,0 +1,28 @@
+// ملف app.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('myForm');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const age = document.getElementById('age').value;
+        const location = document.getElementById('location').value;
+        const phone = document.getElementById('phone').value;
+
+        // قم بإرسال البيانات إلى عنوان البريد الإلكتروني باستخدام Email.js
+        emailjs.send("service_your_service_id", "template_your_template_id", {
+            to_email: "haythamqadoomi@gmail.com", // استبدل بعنوان بريدك الإلكتروني
+            age: age,
+            location: location,
+            phone: phone
+        }).then(
+            function(response) {
+                console.log("تم إرسال البريد الإلكتروني بنجاح:", response);
+            },
+            function(error) {
+                console.log("حدث خطأ أثناء إرسال البريد الإلكتروني:", error);
+            }
+        );
+    });
+});
